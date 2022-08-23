@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "RuyBUdsDj0+yosZDaWjk8+fumBayRr0xmFbitI0PjhyTGRvVGaUJZRSuJ8iOBwCLZ9uTYn6jdoiUV9m9wYNs+w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Twinkle\\Documents\\GitHub\\VPT_ForAndroid\\VPT_ForAndroid\\VPT_ForAndroid\\VPT_ForAndroid.iOS\\VPT_ForAndroid.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Twinkle\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}
