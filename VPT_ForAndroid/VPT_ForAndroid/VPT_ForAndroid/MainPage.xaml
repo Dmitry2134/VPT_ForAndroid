@@ -2,12 +2,11 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="VPT_ForAndroid.MainPage">
-    
 
     <StackLayout>
-        <Frame BackgroundColor="#ECF0F5" Padding="24" CornerRadius="0">
-            
+        <Image Source="logo.png" Aspect="Fill"/>
+        <Frame BackgroundColor="#1b252f" Padding="40" CornerRadius="0">
         </Frame>
     </StackLayout>
-
+ 
 </ContentPage>
