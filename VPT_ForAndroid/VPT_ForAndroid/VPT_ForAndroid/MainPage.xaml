@@ -1,12 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+<ContentPage BackgroundColor="#ECF0F5"
+             xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="VPT_ForAndroid.MainPage">
-
-    <StackLayout>
-        <Image Source="logo.png" Aspect="Fill"/>
-        <Frame BackgroundColor="#1b252f" Padding="40" CornerRadius="0">
+            
+    <StackLayout >
+        <Frame Padding="5" BackgroundColor="#273340" >
+            <Grid x:Name="Header">
+                <Image Source="logo.png" Margin="0,0,270,0" HeightRequest="60" />
+                <Label Margin="140,8,0,0" FontSize="10" FontFamily="Arial" Text="Государственное бюджетное профессиональное образовательное учреждение" TextColor="White"/>
+                <Label Margin="140,35,0,0" FontSize="14" Text="«Волжский политехнический техникум»" TextColor="White" FontFamily="Arial"/>
+            </Grid>
         </Frame>
+
+        <Grid  x:Name="Body" Padding="10,10,10,0" Margin="0,0,0,0">
+            <Grid.ColumnDefinitions >
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Button BackgroundColor="Transparent" ImageSource="logo.png" x:Name="btnOsnSved" BorderWidth="1" BorderColor="Black" Text="Основные сведенения" Grid.Column="0" Grid.Row="0" Clicked="btnOsnSved_Clicked"/>
+            <Button BackgroundColor="Transparent" x:Name="gbtnOsnSved" BorderWidth="1" BorderColor="Black" HeightRequest="200" Text="Основные сведенения" Grid.Column="1" Grid.Row="0" Clicked="btnOsnSved_Clicked"/>
+            <Button BackgroundColor="Transparent" x:Name="hbtnOsnSved" BorderWidth="1" BorderColor="Black" HeightRequest="200" Text="Основные сведенения" Grid.Column="0" Grid.Row="1" Clicked="btnOsnSved_Clicked"/>
+            <Button BackgroundColor="Transparent" x:Name="jbtnOsnSved" BorderWidth="1" BorderColor="Black" HeightRequest="200" Text="Основные сведенения" Grid.Column="1" Grid.Row="1" Clicked="btnOsnSved_Clicked"/>
+                          
+        </Grid>
+
     </StackLayout>
- 
+
 </ContentPage>

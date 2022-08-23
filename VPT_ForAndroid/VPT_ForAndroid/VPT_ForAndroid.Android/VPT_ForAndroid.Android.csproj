@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -83,14 +83,23 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\drawable\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\VPT_ForAndroid\VPT_ForAndroid.csproj">
       <Project>{4074B844-D918-47A3-9020-C95A17B94F54}</Project>
       <Name>VPT_ForAndroid</Name>
     </ProjectReference>
   </ItemGroup>
- <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+  <ItemGroup>
+    <Content Include="logo.png" />
+    <AndroidResource Include="Resources\drawable\logo.png" />
+    <AndroidResource Include="Resources\drawable\osnSvedenia.png" />
+    <Content Include="Resources\mipmap-anydpi-v26\logo.png" />
+    <Content Include="Resources\mipmap-hdpi\logo.png" />
+    <Content Include="Resources\mipmap-mdpi\logo.png" />
+    <Content Include="Resources\mipmap-xhdpi\logo.png" />
+    <Content Include="Resources\mipmap-xxhdpi\logo.png" />
+    <Content Include="Resources\mipmap-xxxhdpi\logo.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

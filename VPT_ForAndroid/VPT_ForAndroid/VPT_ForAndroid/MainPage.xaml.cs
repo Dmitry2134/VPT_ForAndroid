@@ -12,7 +12,25 @@ namespace VPT_ForAndroid
     {
         public MainPage()
         {
-            InitializeComponent();
+            InitializeComponent();            
+        }
+
+        private void Init()
+        {
+            Button btnOsnSved = new Button();
+            btnOsnSved.Text = "Основные сведения";
+
+            Image imgOsnSved = new Image();
+            imgOsnSved.Source = "osnSvedenia.png";
+            imgOsnSved.HeightRequest = 30;
+            imgOsnSved.WidthRequest = 30;
+
+            
+        }
+
+        private void btnOsnSved_Clicked(object sender, EventArgs e)
+        {
+
         }
     }
 }

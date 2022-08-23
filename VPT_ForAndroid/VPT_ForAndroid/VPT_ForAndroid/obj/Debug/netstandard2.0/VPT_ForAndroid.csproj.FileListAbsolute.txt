@@ -12,3 +12,4 @@ C:\Users\Twinkle\Documents\GitHub\VPT_ForAndroid\VPT_ForAndroid\VPT_ForAndroid\V
 C:\Users\Twinkle\Documents\GitHub\VPT_ForAndroid\VPT_ForAndroid\VPT_ForAndroid\VPT_ForAndroid\obj\Debug\netstandard2.0\VPT_ForAndroid.dll
 C:\Users\Twinkle\Documents\GitHub\VPT_ForAndroid\VPT_ForAndroid\VPT_ForAndroid\VPT_ForAndroid\obj\Debug\netstandard2.0\ref\VPT_ForAndroid.dll
 C:\Users\Twinkle\Documents\GitHub\VPT_ForAndroid\VPT_ForAndroid\VPT_ForAndroid\VPT_ForAndroid\obj\Debug\netstandard2.0\VPT_ForAndroid.pdb
+C:\Users\Twinkle\Documents\GitHub\VPT_ForAndroid\VPT_ForAndroid\VPT_ForAndroid\VPT_ForAndroid\obj\Debug\netstandard2.0\VPT_ForAndroid.csproj.AssemblyReference.cache

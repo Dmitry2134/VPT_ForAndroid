@@ -574,3 +574,5 @@ C:\Users\Twinkle\Documents\GitHub\VPT_ForAndroid\VPT_ForAndroid\VPT_ForAndroid\V
 C:\Users\Twinkle\Documents\GitHub\VPT_ForAndroid\VPT_ForAndroid\VPT_ForAndroid\VPT_ForAndroid.Android\obj\Debug\110\stamp\_GenerateJavaStubs.stamp
 C:\Users\Twinkle\Documents\GitHub\VPT_ForAndroid\VPT_ForAndroid\VPT_ForAndroid\VPT_ForAndroid.Android\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Twinkle\Documents\GitHub\VPT_ForAndroid\VPT_ForAndroid\VPT_ForAndroid\VPT_ForAndroid.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Twinkle\Documents\GitHub\VPT_ForAndroid\VPT_ForAndroid\VPT_ForAndroid\VPT_ForAndroid.Android\obj\Debug\110\res\drawable\logo.png
+C:\Users\Twinkle\Documents\GitHub\VPT_ForAndroid\VPT_ForAndroid\VPT_ForAndroid\VPT_ForAndroid.Android\obj\Debug\110\res\drawable\osnsvedenia.png
